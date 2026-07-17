@@ -37,6 +37,7 @@ if (idade >= 18) {
 }
 
 
+// exemplo - login de usuário
 let user = true
 if (user === true) {
   console.log("Seja bem vindo(a) Cristine")

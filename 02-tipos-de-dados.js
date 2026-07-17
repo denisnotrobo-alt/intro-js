@@ -24,7 +24,7 @@ let ligado = true
 let desligado = false
 
 // 5 - undefined - não definidio.
-// singnica que uma variável foi criado, mas ainda não recebeu valor
+// singnica que uma variável foi criada, mas ainda não recebeu valor
 let nomePessoa
 console.log(nomePessoa)
 

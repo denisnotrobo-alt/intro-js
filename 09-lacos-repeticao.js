@@ -65,22 +65,44 @@ while (i < 5) {
 
 
 // exemplo em um sistema de login
-let senha = prompt("Digite a senha:")
+// let senha = prompt("Digite a senha:")
 
-while (senha !== "1234") {
-  senha = prompt("Senha incorreta. Tente novamente: ")
+// while (senha !== "1234") {
+//   senha = prompt("Senha incorreta. Tente novamente: ")
 
-  console.log(senha)
-}
+//   console.log(senha)
+// }
 
 
 // 3 - do...while - parecido com o while, mas com uma diferença importante
 // No do...while o código sempre executa pelo menos UMA VEZ antes de verificar a condição
 
-/* 
+/*
 
 do {
  // código a ser executado
 } while(condição)
 
 */
+
+// 1 - criando a varável de controle
+let numero = 1
+
+do {
+  console.log(numero)
+
+  // 2 - atualizando a variavel de controle
+  numero++
+} while (numero < 2)
+
+
+// exemplo com menu de opções
+let opcao
+
+do {
+  console.log("1 - Ver saldo")
+  console.log("2 - Sair")
+
+  opcao = 2
+
+} while (opcao !== 2)

@@ -65,7 +65,12 @@ console.log(pessoas)
 // 1 - inserindo itens no array
 // pessoas[2] = "Alyne"
 
-// Adiciona novos elementos ao final de um array e retorna o novo comprimento do array.
+// push - Adiciona novos elementos ao final de um array e retorna o novo comprimento do array.
 pessoas.push("Alyne")
 pessoas.push("Magenta")
+console.log(pessoas)
+
+// 2 - removendo itens de um array
+// pop - remove o último item da array
+pessoas.pop()
 console.log(pessoas)
